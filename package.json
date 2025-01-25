@@ -2,13 +2,20 @@
   "name": "scenic_pictures",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "test": "jest",
+    "dev": "nodemon index.js"
   },
   "author": "Kavitha",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^1.19.1"
   }
 }
